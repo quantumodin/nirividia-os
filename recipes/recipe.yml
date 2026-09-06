@@ -64,7 +64,7 @@ modules:
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-kde
         - polkit
-        - polkit-kde
+        - mate-polkit
         - NetworkManager
         - bluez
         - greetd
@@ -76,7 +76,6 @@ modules:
 
         # shell/terminal
         - alacritty
-        - kitty
         - fish
         - starship
         - fastfetch
