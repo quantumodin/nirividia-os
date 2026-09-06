@@ -16,6 +16,9 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+      
+      - source: etc/greetd/config.toml
+        destination: /etc/greetd/config.toml
 
   - type: dnf
     repos:
@@ -23,6 +26,7 @@ modules:
         - https://packages.microsoft.com/yumrepos/vscode/config.repo
       copr:
         - atim/starship
+        - avengemedia/danklinux
     group-install:
       with-optional: true
       packages:
@@ -32,13 +36,12 @@ modules:
         # desktop stack
         - niri
         - DankMaterialShell
-        - sddm
         - wdisplays
         - brightnessctl
         - wlsunset
         - xwayland-satellite
         - matugen
-        - dolphin
+        - nemo
         - khal
         - kanshi
 
@@ -57,9 +60,12 @@ modules:
         - power-profiles-daemon
         - xdg-desktop-portal-gnome
         - xdg-desktop-portal-gtk
-        - lxpolkit
+        - polkit
+        - mate-polkit
         - NetworkManager
         - bluez
+        - greetd
+        - dms-greeter
 
         # fonts
         - google-noto-fonts-all
@@ -114,7 +120,7 @@ modules:
   - type: systemd
     system:
       enabled:
-        - sddm.service
+        - greetd.service
         - waydroid-container
         - power-profiles-daemon
     user:
