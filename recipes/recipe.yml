@@ -58,6 +58,7 @@ modules:
 
         # daemons, polkits, etc.
         - power-profiles-daemon
+        - xdg-desktop-portal
         - xdg-desktop-portal-gnome
         - xdg-desktop-portal-gtk
         - polkit
