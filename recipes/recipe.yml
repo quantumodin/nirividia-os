@@ -65,7 +65,6 @@ modules:
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-kde
         - polkit
-        - polkit-kde
         - NetworkManager
         - bluez
         - greetd
