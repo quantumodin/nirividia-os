@@ -41,7 +41,7 @@ modules:
         - wlsunset
         - xwayland-satellite
         - matugen
-        - nautilus
+        - dolphin
         - khal
         - kanshi
         - dconf-editor
@@ -62,8 +62,9 @@ modules:
         - xdg-desktop-portal
         - xdg-desktop-portal-gnome
         - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-kde
         - polkit
-        - mate-polkit
+        - polkit-kde
         - NetworkManager
         - bluez
         - greetd
