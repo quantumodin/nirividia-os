@@ -41,7 +41,7 @@ modules:
         - wlsunset
         - xwayland-satellite
         - matugen
-        - nemo
+        - nautilus
         - khal
         - kanshi
 
