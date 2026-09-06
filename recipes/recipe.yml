@@ -48,6 +48,7 @@ modules:
 
         # themes
         - qt6ct
+        - qt5ct
         - adw-gtk3-theme
         - oxygen-icon-theme
 
