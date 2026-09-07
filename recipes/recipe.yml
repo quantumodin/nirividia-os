@@ -45,6 +45,9 @@ modules:
         - khal
         - kanshi
         - dconf-editor
+        - repo: fedora
+          packages:
+          - quickshell
 
         # themes
         - qt6ct
