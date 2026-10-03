@@ -44,6 +44,7 @@ modules:
         - dolphin
         - khal
         - kanshi
+        - kdialog
         - dconf-editor
         - repo: fedora
           packages:
