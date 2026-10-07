@@ -45,6 +45,7 @@ modules:
         - khal
         - kanshi
         - kdialog
+        - fuse
         - dconf-editor
         - repo: fedora
           packages:
