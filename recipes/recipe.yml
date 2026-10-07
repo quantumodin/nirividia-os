@@ -46,6 +46,7 @@ modules:
         - kanshi
         - kdialog
         - fuse
+        - fuse-libs
         - dconf-editor
         - repo: fedora
           packages:
